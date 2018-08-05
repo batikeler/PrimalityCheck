@@ -3,7 +3,7 @@ import sys
 import math
 
 def one_time_check(number):
-    return pow(random.randint(2, number - 1), number - 1, number) != 1:
+    return pow(random.randint(2, number - 1), number - 1, number) != 1
 
 def primality_check(number, tries):
     for i in range(0, tries):
